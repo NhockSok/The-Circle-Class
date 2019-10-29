@@ -20,6 +20,7 @@ namespace Circle_classs
             Console.WriteLine("The Circle has radius of {0} and color of {1}", c3.getRadius(), c3.getColor());
 
             Console.WriteLine(c3.ToString());
+
         }
     }
 }

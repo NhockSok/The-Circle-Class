@@ -47,9 +47,17 @@ namespace Circle_classs
         {          
             this.Color = newColor;
         }
+        //public override string ToString()
+        //{
+        //    return String.Format("Circle[radius] = {0},[color] = {1}", Radius, Color);
+        //}
+        public double getCircumference()
+        {
+            return 2 * Math.PI * Radius;
+        }
         public override string ToString()
         {
-            return String.Format("Circle[radius] = {0},[color] = {1}", Radius, Color);
+            return String.Format("Circle[radius] = {0}", Radius);
         }
    }
 }    
